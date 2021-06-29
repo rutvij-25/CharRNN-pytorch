@@ -4,6 +4,8 @@
 
 ### train.py 
 
+Use your own text data and name it "data.txt"
+
 | Arguement | Parse | Default |
 | ----------- | ----------- | ----------- |
 | Embedding Dimension | --embed_dim | 65 |
