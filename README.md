@@ -14,7 +14,7 @@
 | Chunk Size | --chunk_size | 200 |
 | Epochs | --epochs | 200 |
 | Learning Rate | --lr | 0.01 |
-| Root directory of data | --root |
+| Root directory of data | --root | data.txt |
 
 
 
