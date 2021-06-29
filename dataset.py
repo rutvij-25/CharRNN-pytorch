@@ -10,6 +10,7 @@ class TextData(Dataset):
             self.lines = f.read()
         self.char2idx = {i:j for (j,i) in enumerate(sorted(set(self.lines)))}
         self.idx2char = {i:j for (i,j) in enumerate(sorted(set(self.lines)))}
+        self.vocab_size = len(self.char2idx)
     
     def encode(self,x):
         return [self.char2idx[i] for i in x]
