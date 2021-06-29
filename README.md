@@ -31,7 +31,7 @@ Your model will be saved in `pretrained` folder
 | ----------- | ----------- | ----------- |
 | Initial Text | --initialtext | Where |
 | Temperature | --temperature | 1 |
-| Number of Letter to Generate | --n | 100 |
+| Number of Letters to Generate | --n | 100 |
 | Root directory of data | --root | data.txt |
 
 
