@@ -36,7 +36,18 @@ python train.py
 ### Output
 
 ```
-python generate.py --n 500
+python generate.py --n 200
+
+Where of call, let all not no Risent us thy do.
+
+BETHE:
+Ay, that we onoth be miled to did; and
+That here and manesty
+Nabtalmy most evancion they stash?
+You bick'd gelolot part? then bloinopt.        
+
+LADY MACBETH
+
 ```
 
 
