@@ -18,7 +18,7 @@ argparser.add_argument('--batch_size',type=int,default=100)
 argparser.add_argument('--chunk_size',type=int,default=200)
 argparser.add_argument('--epochs',type=int,default=200)
 argparser.add_argument('--lr',type=float,default=0.01)
-argparser.add_argument('--root',type=str)
+argparser.add_argument('--root',type=str,default='data.txt')
 
 args = argparser.parse_args()
 
