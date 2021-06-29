@@ -16,6 +16,15 @@
 | Learning Rate | --lr | 0.01 |
 | Root directory of data | --root | data.txt |
 
+### generate.py 
+
+| Arguement | Parse | Default |
+| ----------- | ----------- | ----------- |
+| Initial Text | --initialtext | Where |
+| Temperature | --temperature | 1 |
+| Number of Letter to Generate | --n | 100 |
+
+
 
 
 
