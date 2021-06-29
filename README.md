@@ -23,6 +23,7 @@
 | Initial Text | --initialtext | Where |
 | Temperature | --temperature | 1 |
 | Number of Letter to Generate | --n | 100 |
+| Root directory of data | --root | data.txt |
 
 
 

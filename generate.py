@@ -8,6 +8,7 @@ argparser = argparse.ArgumentParser()
 argparser.add_argument('--initialtext',type=str,default="Where")
 argparser.add_argument('--temperature',type=int,default=1)
 argparser.add_argument('--n',type=int,default=100)
+argparser.add_argument('--root',type=str,default='data.txt')
 
 args = argparser.parse_args()
 
@@ -39,6 +40,6 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 checkpoint = torch.load('pretrained/saved_model.pth',map_location=device)
 model = checkpoint['model']
 model.load_state_dict(checkpoint['model_state_dict'])
-dataset = TextData('data.txt',100)
+dataset = TextData(args.root,100)
     
 print(sample(model,dataset,args.n,args.initialtext,device,args.temperature))
