@@ -21,6 +21,7 @@ Then run
 | Epochs | --epochs | 200 |
 | Learning Rate | --lr | 0.01 |
 | Root directory of data | --root | data.txt |
+| Save the model every N epochs | --save_every | 50d |
 
 ### generate.py 
 

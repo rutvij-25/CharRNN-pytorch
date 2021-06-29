@@ -19,6 +19,7 @@ argparser.add_argument('--chunk_size',type=int,default=200)
 argparser.add_argument('--epochs',type=int,default=200)
 argparser.add_argument('--lr',type=float,default=0.01)
 argparser.add_argument('--root',type=str,default='data.txt')
+argparser.add_argument('--save_every',type=int,default=50)
 
 args = argparser.parse_args()
 
@@ -35,7 +36,7 @@ model = CharRNN(vocab_size,args.embed_dim,args.hidden_size,args.num_layers,args.
 criterion = nn.CrossEntropyLoss()
 optimizer = optimizers.Adam(model.parameters(),args.lr)
 
-for epoch in range(args.epochs):
+for epoch in range(1,args.epochs+1):
   
     for input,target in dataloader:
       
@@ -53,7 +54,7 @@ for epoch in range(args.epochs):
         loss.backward()
         optimizer.step()
 
-    if epoch%50 == 0:
+    if epoch%args.save_every == 0:
         checkpoint = {
           
           'model_state_dict':model.state_dict(),
