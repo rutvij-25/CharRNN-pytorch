@@ -5,7 +5,6 @@
 ### train.py 
 
 | Arguement | Parse | Default |
-| ----------- | ----------- |
 | Embedding Dimension | --embed_dim | 65 |
 | Dropout | --dropout | 0.1 |
 | Hidden Size | --hidden_size | 50 |
