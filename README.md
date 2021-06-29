@@ -1,6 +1,6 @@
 # CharRNN-pytorch
 
-## Pytorch implementation of Character level recurrent neural network
+## Pytorch implementation of Character level recurrent neural network to generate text
 
 ### train.py 
 
