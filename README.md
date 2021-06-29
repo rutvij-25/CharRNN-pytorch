@@ -7,7 +7,7 @@
 Use your own text data and name it `data.txt`
 Then run 
 ```
->python train.py
+python train.py
 ```
 
 | Arguement | Parse | Default |
@@ -25,14 +25,19 @@ Then run
 
 ### generate.py 
 
-After training 
-
 | Arguement | Parse | Default |
 | ----------- | ----------- | ----------- |
 | Initial Text | --initialtext | Where |
 | Temperature | --temperature | 1 |
 | Number of Letter to Generate | --n | 100 |
 | Root directory of data | --root | data.txt |
+
+
+### Output
+
+```
+python generate.py --n 500
+```
 
 
 
