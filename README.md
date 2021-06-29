@@ -4,7 +4,7 @@
 
 ### train.py 
 
-Use your own text data and name it `data.txt`
+Use your own text data and name it `data.txt` \n
 Then run 
 ```
 >python train.py
@@ -23,6 +23,8 @@ Then run
 | Root directory of data | --root | data.txt |
 
 ### generate.py 
+
+After training 
 
 | Arguement | Parse | Default |
 | ----------- | ----------- | ----------- |
