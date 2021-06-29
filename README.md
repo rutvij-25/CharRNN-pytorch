@@ -23,7 +23,7 @@ Your model will be saved in `pretrained` folder
 | Epochs | --epochs | 200 |
 | Learning Rate | --lr | 0.01 |
 | Root directory of data | --root | data.txt |
-| Save the model every N epochs | --save_every | 50d |
+| Save the model every N epochs | --save_every | 50 |
 
 ### generate.py 
 
