@@ -4,7 +4,11 @@
 
 ### train.py 
 
-Use your own text data and name it "data.txt"
+Use your own text data and name it `data.txt`
+Then run 
+```
+>python train.py
+```
 
 | Arguement | Parse | Default |
 | ----------- | ----------- | ----------- |
