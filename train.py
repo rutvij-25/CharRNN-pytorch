@@ -28,7 +28,7 @@ dataloader = DataLoader(dataset,args.batch_size,shuffle=True)
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-vocab_size = len(dataset.vocab_size)
+vocab_size = dataset.vocab_size
 
 model = CharRNN(vocab_size,args.embed_dim,args.hidden_size,args.num_layers,args.dropout).to(device)
 
