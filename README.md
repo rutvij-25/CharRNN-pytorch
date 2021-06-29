@@ -10,6 +10,8 @@ Then run
 python train.py
 ```
 
+Your model will be saved in `pretrained` folder
+
 | Arguement | Parse | Default |
 | ----------- | ----------- | ----------- |
 | Embedding Dimension | --embed_dim | 65 |
