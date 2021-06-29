@@ -4,7 +4,7 @@
 
 ### train.py 
 
-Use your own text data and name it `data.txt` \n
+Use your own text data and name it `data.txt`
 Then run 
 ```
 >python train.py
