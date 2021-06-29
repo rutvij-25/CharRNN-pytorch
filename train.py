@@ -57,6 +57,7 @@ for epoch in range(1,args.epochs+1):
     if epoch%args.save_every == 0:
         checkpoint = {
           
+          'model':model,
           'model_state_dict':model.state_dict(),
           'opt_state_dict':optimizer.state_dict()
       }
