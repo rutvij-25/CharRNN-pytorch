@@ -39,7 +39,9 @@ Your model will be saved in `pretrained` folder
 
 ```
 python generate.py --n 200
+```
 
+```
 Where of call, let all not no Risent us thy do.
 
 BETHE:
