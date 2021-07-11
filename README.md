@@ -12,7 +12,7 @@ python train.py
 
 Your model will be saved in `pretrained` folder
 
-| Arguement | Parse | Default |
+| Argument | Parse | Default |
 | ----------- | ----------- | ----------- |
 | Embedding Dimension | --embed_dim | 65 |
 | Dropout | --dropout | 0.1 |
